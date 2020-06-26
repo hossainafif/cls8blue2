@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*header start*/
+header{
+    background-color: #121B2A;
+    padding: 10px 0px;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    width: 17%;
+    float: left;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu{
+    width: 70%;
+    float: right;
+    margin-top: 31px;
+}
+
+.menu ul{
+    float: right;
+}
+
+.menu ul li{
+    float: left;
+    list-style: none;
+}
+
+.menu ul li a {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.menu ul li:last-child a{
+    padding-right: 0px;
+}
+
+.menu ul li a:hover{
+    color: #085284;
+}
+/*header end*/
+
+/*banner start*/
+.benner {
+    background-image: url(../image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-position: center;
+}
+.banner_content {
+    width: 55%;
+    margin: 200px 0px 80px 0px;
+}
+.banner_content h1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 37px;
+    color: white;
+    text-transform: capitalize;
+    margin: 0;
+}
+.banner_content h2{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    color: #085284;
+    text-transform: capitalize;
+    margin: 0;
+}
+.banner_content p{
+    font-family: sans-serif;
+    color: white;
+    margin: 0;
+    line-height: 25px;
+}
+.banner_content button{
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #5A5A5A;
+    text-transform: uppercase;
+    background-color: white;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.banner_content button:focus{
+    outline: 0;
+}
+/*banner end*/
